@@ -12,10 +12,10 @@ Página personal de José Ulloa Suárez. Sitio estático de una sola página (HT
 
 ## Despliegue
 
-Cada push a `main` despliega automáticamente vía la integración Git de Cloudflare Pages (proyecto `joseulloa-com`, framework "None", sin comando de build, directorio de salida `/`).
+Cada push a `main` despliega automáticamente vía la integración Git de Cloudflare Pages (proyecto `joseulloa-site`, framework "None", sin comando de build, directorio de salida `/`).
 
 DNS en Cloudflare:
-- `www` es un CNAME a `joseulloa-com.pages.dev` (proxied), creado desde el panel de Pages.
+- `www` es un CNAME a `joseulloa-site.pages.dev` (proxied), creado desde el panel de Pages.
 - `@` (apex) mantiene un registro A placeholder proxied (`192.0.2.1`). No borrarlo: es lo que permite que la regla de redirección 301 `joseulloa.com` → `www.joseulloa.com` funcione.
 
 ## Regla de privacidad

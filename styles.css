@@ -68,6 +68,7 @@ p { margin: 0 0 1rem; }
 .profile { font-size: 1.15rem; color: var(--gray-700); margin: 0; }
 
 .cards { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+@media (min-width: 900px) { .cards-3 { grid-template-columns: repeat(3, 1fr); } }
 .card { background: #fff; border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm); }
 .card:hover { border-color: var(--blue-500); }
 .card p { margin: 0; color: var(--gray-700); }
